@@ -1,0 +1,13 @@
+Package: kmod-pfe_ctrl
+Version: 3.2.26+10.00-4
+Depends: kernel (=3.2.26-1-0981bf3d4f3bed73bb14d0b1523464a8)
+Provides: 
+Source: package/mindspeed/pfe_ctrl
+Section: Mindspeed Packages
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: comcerto2000
+Installed-Size: 157203
+Description:  PFE control path.

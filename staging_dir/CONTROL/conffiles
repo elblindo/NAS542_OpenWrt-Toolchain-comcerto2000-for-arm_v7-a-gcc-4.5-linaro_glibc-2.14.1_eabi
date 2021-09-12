@@ -1,0 +1,12 @@
+/etc/config/network
+/etc/config/qos
+/etc/config/system
+/etc/config/vap0
+/etc/config/vap1
+/etc/config/vap2
+/etc/config/vap3
+/etc/config/vap4
+/etc/config/vap5
+/etc/config/vap6
+/etc/config/vap7
+/etc/config/wireless

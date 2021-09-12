@@ -1,0 +1,899 @@
+Package: terminfo
+Version: 5.7-5
+Depends: libc, librt, libpthread
+Provides:
+Status: install ok installed
+Architecture: comcerto2000
+Installed-Time: 1386745210
+
+Package: ldconfig
+Version: 2.14.1-1
+Depends: libgcc
+Provides:
+Status: install hold installed
+Essential: yes
+Architecture: comcerto2000
+Installed-Time: 1386745235
+
+Package: libc
+Version: 2.14.1-1
+Depends: libgcc
+Provides:
+Status: install hold installed
+Essential: yes
+Architecture: comcerto2000
+Installed-Time: 1386745235
+
+Package: sysstat
+Version: 10.1.2-1
+Depends: libc, librt, libpthread
+Provides:
+Status: install ok installed
+Architecture: comcerto2000
+Conffiles:
+ /etc/sysstat/sysstat.ioconf fa92b01baa2130e26822c30fb27ac56e
+ /etc/sysstat/config 2980a0edc3fc1adcd1444aa5b77e5167
+Installed-Time: 1386745233
+
+Package: ntpclient
+Version: 2007_365-4
+Depends: libc, librt, libpthread, librt
+Provides:
+Status: install ok installed
+Architecture: comcerto2000
+Conffiles:
+ /etc/config/ntpclient 1cf9d075c4e42397f8cd9dbc58864334
+Installed-Time: 1386745228
+
+Package: opkg
+Version: 618-3
+Depends: libc, librt, libpthread
+Provides:
+Status: install ok installed
+Architecture: comcerto2000
+Conffiles:
+ /etc/opkg.conf 49ba3dd9bbef0cd1b5515d8d4a2932a3
+Installed-Time: 1386745234
+
+Package: iperf
+Version: 2.0.5-1
+Depends: libc, librt, libpthread, uclibcxx
+Provides:
+Status: install ok installed
+Architecture: comcerto2000
+Installed-Time: 1386745228
+
+Package: ip
+Version: 3.3.0-1
+Depends: libc, librt, libpthread, libnl-tiny
+Provides:
+Status: install ok installed
+Architecture: comcerto2000
+Conffiles:
+ /etc/iproute2/rt_tables a1313318d6778fe6b8c680248ef5a463
+Installed-Time: 1386745191
+
+Package: libpthread
+Version: 2.14.1-1
+Depends: libgcc
+Provides:
+Status: install hold installed
+Essential: yes
+Architecture: comcerto2000
+Installed-Time: 1386745235
+
+Package: ubus
+Version: 2013-01-13-bf566871bd6a633e4504c60c6fc55b2a97305a50
+Depends: libc, librt, libpthread, libubus, libblobmsg-json, ubusd
+Provides:
+Status: install ok installed
+Architecture: comcerto2000
+Installed-Time: 1386745236
+
+Package: busybox
+Version: 1.19.4-6
+Depends: libc, librt, libpthread
+Provides:
+Status: install ok installed
+Essential: yes
+Architecture: comcerto2000
+Installed-Time: 1386745187
+
+Package: atheros_lsdk_wlan
+Version: 10.1.389-2.10.1-1
+Depends: libc, librt, libpthread
+Provides:
+Status: install ok installed
+Architecture: comcerto2000
+Installed-Time: 1386745198
+
+Package: kmod-crypto-hash
+Version: 3.2.26-1
+Depends: kernel (= 3.2.26-1-0981bf3d4f3bed73bb14d0b1523464a8), kmod-crypto-core
+Provides:
+Status: install hold installed
+Architecture: comcerto2000
+Installed-Time: 1386745194
+
+Package: binutils
+Version: 2.21.1-5
+Depends: libc, librt, libpthread, objdump
+Provides:
+Status: install ok installed
+Architecture: comcerto2000
+Installed-Time: 1386745224
+
+Package: strace
+Version: 4.5.20-1
+Depends: libc, librt, libpthread
+Provides:
+Status: install ok installed
+Architecture: comcerto2000
+Installed-Time: 1386745233
+
+Package: net-tools-rarp
+Version: 1.60-2
+Depends: libc, librt, libpthread
+Provides:
+Status: install ok installed
+Architecture: comcerto2000
+Installed-Time: 1386745228
+
+Package: openssl-util
+Version: 1.0.0g-1
+Depends: libc, librt, libpthread, libopenssl
+Provides:
+Status: install ok installed
+Architecture: comcerto2000
+Conffiles:
+ /etc/ssl/openssl.cnf ce31ab5015842bf7c2939514a634e0e4
+Installed-Time: 1386745212
+
+Package: libdw
+Version: 0.152-1
+Depends: libc, librt, libpthread, libelf1, zlib
+Provides:
+Status: install ok installed
+Architecture: comcerto2000
+Installed-Time: 1386745226
+
+Package: kmod-lib-crc-ccitt
+Version: 3.2.26-1
+Depends: kernel (= 3.2.26-1-0981bf3d4f3bed73bb14d0b1523464a8)
+Provides:
+Status: install hold installed
+Architecture: comcerto2000
+Installed-Time: 1386745195
+
+Package: lvm2
+Version: 2.02.96-1
+Depends: libc, librt, libpthread, libdevmapper, libreadline, libncurses
+Provides:
+Status: install ok installed
+Architecture: comcerto2000
+Conffiles:
+ /etc/lvm/lvm.conf acf3b4ad97d107260d9e8d98c85624f6
+Installed-Time: 1386745232
+
+Package: libgcrypt
+Version: 1.5.0-1
+Depends: libc, librt, libpthread, libgpg-error
+Provides:
+Status: install ok installed
+Architecture: comcerto2000
+Installed-Time: 1386745227
+
+Package: net-tools-slattach
+Version: 1.60-2
+Depends: libc, librt, libpthread
+Provides:
+Status: install ok installed
+Architecture: comcerto2000
+Installed-Time: 1386745228
+
+Package: mmiotool
+Version: 1.00-1
+Depends: libc, librt, libpthread
+Provides:
+Status: install ok installed
+Architecture: comcerto2000
+Installed-Time: 1386745206
+
+Package: kmod-lib-crc16
+Version: 3.2.26-1
+Depends: kernel (= 3.2.26-1-0981bf3d4f3bed73bb14d0b1523464a8)
+Provides:
+Status: install hold installed
+Architecture: comcerto2000
+Installed-Time: 1386745195
+
+Package: pfe
+Version: 10.00-3
+Depends: libc, librt, libpthread
+Provides:
+Status: install ok installed
+Architecture: comcerto2000
+Installed-Time: 1386745207
+
+Package: base-files
+Version: 117-unknown
+Depends: libc, librt, libpthread, netifd
+Provides:
+Status: install ok installed
+Architecture: comcerto2000
+Conffiles:
+ /etc/hosts 0eea71665fb6890c06421fd13aa3f849
+ /etc/inittab 3fafaa42fdc6218dea5c2d54d5b2f291
+ /etc/group 4a116d818b2f49e14939d581ec786de1
+ /etc/passwd 8a31e6d3e2d67fc7b99f56055e9d802b
+ /etc/shadow 497b070fd6e487f137756e9bce95b636
+ /etc/profile f6394146d2f7dd077ea65916f2854948
+ /etc/shells 725ba6f40dff0612f61ecd3f171bb3e1
+ /etc/sysctl.conf 49f7ef57dccc62a61034436bf84d7c4e
+ /etc/rc.local 6f8bfdaf36d3ec4aa9be6e96fa61d32b
+ /etc/sysupgrade.conf f91aef484370cefee501d64b5725c1d2
+ /etc/config/vap7 8efb6bdb1cd02e48eeea0e65cf83bea4
+ /etc/config/vap4 1efaf655d3f2b4b8a3c9e19c1d90e24d
+ /etc/config/vap6 d8b55bc42048c2c5b12b9ae791467b98
+ /etc/config/vap3 99ac245aa32bde12d2120eecb895389a
+ /etc/config/vap5 3c17ec9b8bef88fb2f1140a39e83e727
+ /etc/config/vap0 c3a7389041a4bec9bce4d016b726fe4b
+ /etc/config/wireless 12438f8ba683f320f9a676cbea5312e2
+ /etc/config/vap1 b3c71fa8dcb9d2f3822231736d13aeb2
+ /etc/config/vap2 8f8b360808c62bd50fed23d5aae97ddc
+ /etc/config/network cd91e666b38503e315a104a61cef7884
+ /etc/config/system 8195f0ae675038c41766a9ff46e6e22b
+Installed-Time: 1386745239
+
+Package: libcom_err
+Version: 1.42.4-1
+Depends: libc, librt, libpthread, libpthread
+Provides:
+Status: install ok installed
+Architecture: comcerto2000
+Installed-Time: 1386745190
+
+Package: kmod-fs-msdos
+Version: 3.2.26-1
+Depends: kernel (= 3.2.26-1-0981bf3d4f3bed73bb14d0b1523464a8), kmod-nls-base
+Provides:
+Status: install hold installed
+Architecture: comcerto2000
+Installed-Time: 1386745195
+
+Package: kmod-c2k_pmu
+Version: 3.2.26+1.00-comcerto2000-1
+Provides:
+Status: install ok installed
+Architecture: comcerto2000
+Installed-Time: 1386745205
+
+Package: netifd
+Version: 2013-01-29.2-4bb99d4eb462776336928392010b372236ac3c93
+Depends: libc, librt, libpthread, libuci, libnl-tiny, libubus, ubus, ubusd, jshn
+Provides:
+Status: install ok installed
+Architecture: comcerto2000
+Installed-Time: 1386745210
+
+Package: dnsmasq
+Version: 2.62-2
+Depends: libc, librt, libpthread
+Provides:
+Status: install ok installed
+Architecture: comcerto2000
+Conffiles:
+ /etc/config/dhcp 08fa8afcaa7e6ea98519027ac3b21947
+ /etc/dnsmasq.conf 7cf378e58d3fe5db31f4116a16c15c61
+Installed-Time: 1386745187
+
+Package: mtd-utils-nandwrite
+Version: 1.4.5-1
+Depends: libc, librt, libpthread, mtd-utils
+Provides:
+Status: install ok installed
+Architecture: comcerto2000
+Installed-Time: 1386745233
+
+Package: libblkid
+Version: 2.21.2-1
+Depends: libc, librt, libpthread, libuuid
+Provides:
+Status: install ok installed
+Architecture: comcerto2000
+Installed-Time: 1386745238
+
+Package: kmod-crypto-ocf
+Version: 3.2.26-1
+Depends: kernel (= 3.2.26-1-0981bf3d4f3bed73bb14d0b1523464a8), kmod-crypto-manager, kmod-crypto-core
+Provides:
+Status: install hold installed
+Architecture: comcerto2000
+Installed-Time: 1386745194
+
+Package: ubusd
+Version: 2013-01-13-bf566871bd6a633e4504c60c6fc55b2a97305a50
+Depends: libc, librt, libpthread, libubox
+Provides:
+Status: install ok installed
+Architecture: comcerto2000
+Installed-Time: 1386745236
+
+Package: kmod-dm
+Version: 3.2.26-1
+Depends: kernel (= 3.2.26-1-0981bf3d4f3bed73bb14d0b1523464a8)
+Provides:
+Status: install hold installed
+Architecture: comcerto2000
+Installed-Time: 1386745194
+
+Package: webif
+Version: 0.3-
+Depends: libc, librt, libpthread, haserl, opkg, uhttpd
+Provides:
+Status: install ok installed
+Architecture: comcerto2000
+Conffiles:
+ /etc/config/webif 3e1ff4f8e13287924eacaadfafcba792
+ /etc/config/cron 6a87ffa0863f165850e964735bbdfefe
+ /etc/httpd.conf 012a38d6ad9969d6f1859b81d5d040f2
+ /etc/init.d/custom-user-startup 76b2bc0269c2ccd27358986d52cb5f5a
+Installed-Time: 1386745208
+
+Package: libelf1
+Version: 0.152-1
+Depends: libc, librt, libpthread
+Provides:
+Status: install ok installed
+Architecture: comcerto2000
+Installed-Time: 1386745226
+
+Package: libgpg-error
+Version: 1.9-1
+Depends: libc, librt, libpthread
+Provides:
+Status: install ok installed
+Architecture: comcerto2000
+Installed-Time: 1386745227
+
+Package: block-mount
+Version: 0.2.0-9
+Depends: libc, librt, libpthread, blkid, swap-utils
+Provides:
+Status: install ok installed
+Architecture: comcerto2000
+Conffiles:
+ /etc/config/fstab b54ea892cd714ef9a2d2543a17b7b263
+Installed-Time: 1386745186
+
+Package: kmod-fs-vfat
+Version: 3.2.26-1
+Depends: kernel (= 3.2.26-1-0981bf3d4f3bed73bb14d0b1523464a8), kmod-nls-base
+Provides:
+Status: install hold installed
+Architecture: comcerto2000
+Installed-Time: 1386745195
+
+Package: libuci
+Version: 2013-01-04.1-1
+Depends: libc, librt, libpthread
+Provides:
+Status: install ok installed
+Architecture: comcerto2000
+Installed-Time: 1386745237
+
+Package: tcpdump
+Version: 4.2.1-3
+Depends: libc, librt, libpthread, libpcap
+Provides:
+Status: install ok installed
+Architecture: comcerto2000
+Installed-Time: 1386745230
+
+Package: mtd-utils
+Version: 1.4.5-1
+Depends: libc, librt, libpthread
+Provides:
+Status: install ok installed
+Architecture: comcerto2000
+Installed-Time: 1386745233
+
+Package: webif-theme-xwrt
+Version: 0.3-
+Depends: libc, librt, libpthread, webif
+Provides:
+Status: install ok installed
+Architecture: all
+Installed-Time: 1386745209
+
+Package: ethtool
+Version: 3.4.1-1
+Depends: libc, librt, libpthread
+Provides:
+Status: install ok installed
+Architecture: comcerto2000
+Installed-Time: 1386745228
+
+Package: uci
+Version: 2013-01-04.1-1
+Depends: libc, librt, libpthread, libuci
+Provides:
+Status: install ok installed
+Architecture: comcerto2000
+Installed-Time: 1386745237
+
+Package: kmod-fs-ext4
+Version: 3.2.26-1
+Depends: kernel (= 3.2.26-1-0981bf3d4f3bed73bb14d0b1523464a8), kmod-lib-crc16
+Provides:
+Status: install hold installed
+Architecture: comcerto2000
+Installed-Time: 1386745194
+
+Package: dropbear
+Version: 2011.54-2
+Depends: libc, librt, libpthread
+Provides:
+Status: install ok installed
+Architecture: comcerto2000
+Conffiles:
+ /etc/dropbear/dropbear_rsa_host_key d41d8cd98f00b204e9800998ecf8427e
+ /etc/dropbear/dropbear_dss_host_key d41d8cd98f00b204e9800998ecf8427e
+ /etc/config/dropbear 4ff9c827d4f95ca5082a5520c03e1419
+Installed-Time: 1386745189
+
+Package: kmod-nls-cp437
+Version: 3.2.26-1
+Depends: kernel (= 3.2.26-1-0981bf3d4f3bed73bb14d0b1523464a8), kmod-nls-base
+Provides:
+Status: install hold installed
+Architecture: comcerto2000
+Installed-Time: 1386745195
+
+Package: mtd
+Version: 18.1
+Depends: libc, librt, libpthread
+Provides:
+Status: install ok installed
+Architecture: comcerto2000
+Installed-Time: 1386745209
+
+Package: libstdcpp
+Version: 4.5-linaro-1
+Provides:
+Status: install hold installed
+Essential: yes
+Architecture: comcerto2000
+Installed-Time: 1386745235
+
+Package: samba4-server
+Version: 4.0.0rc5-1
+Depends: libc, librt, libpthread
+Provides:
+Status: install ok installed
+Architecture: comcerto2000
+Installed-Time: 1386745230
+
+Package: libgcc
+Version: 4.5-linaro-1
+Provides:
+Status: install hold installed
+Essential: yes
+Architecture: comcerto2000
+Installed-Time: 1386745235
+
+Package: libreadline
+Version: 5.2-2
+Depends: libc, librt, libpthread
+Provides:
+Status: install ok installed
+Architecture: comcerto2000
+Installed-Time: 1386745197
+
+Package: net-tools-plipconfig
+Version: 1.60-2
+Depends: libc, librt, libpthread
+Provides:
+Status: install ok installed
+Architecture: comcerto2000
+Installed-Time: 1386745228
+
+Package: libuuid
+Version: 2.21.2-1
+Depends: libc, librt, libpthread
+Provides:
+Status: install ok installed
+Architecture: comcerto2000
+Installed-Time: 1386745238
+
+Package: objdump
+Version: 2.21.1-5
+Depends: libc, librt, libpthread, zlib
+Provides:
+Status: install ok installed
+Architecture: comcerto2000
+Installed-Time: 1386745224
+
+Package: libubox
+Version: 2013-01-29-0bc317aa4d9af44806c28ca286d79a8b5a92b2b8
+Depends: libc, librt, libpthread
+Provides:
+Status: install ok installed
+Architecture: comcerto2000
+Installed-Time: 1386745197
+
+Package: net-tools-nameif
+Version: 1.60-2
+Depends: libc, librt, libpthread
+Provides:
+Status: install ok installed
+Architecture: comcerto2000
+Installed-Time: 1386745228
+
+Package: libjson
+Version: 0.9-2
+Depends: libc, librt, libpthread
+Provides:
+Status: install ok installed
+Architecture: comcerto2000
+Installed-Time: 1386745196
+
+Package: btrfs-progs
+Version: 0.19-1
+Depends: libc, librt, libpthread, libuuid, zlib
+Provides:
+Status: install ok installed
+Architecture: comcerto2000
+Installed-Time: 1386745231
+
+Package: librt
+Version: 2.14.1-1
+Depends: libpthread
+Provides:
+Status: install hold installed
+Essential: yes
+Architecture: comcerto2000
+Installed-Time: 1386745235
+
+Package: cryptsetup
+Version: 1.4.1-1
+Depends: libc, librt, libpthread, libblkid, libuuid, libpopt, lvm2, libgcrypt, libdevmapper
+Provides:
+Status: install ok installed
+Architecture: comcerto2000
+Installed-Time: 1386745231
+
+Package: tune2fs
+Version: 1.42.4-1
+Depends: libc, librt, libpthread, e2fsprogs
+Provides:
+Status: install ok installed
+Architecture: comcerto2000
+Installed-Time: 1386745190
+
+Package: kmod-pfe_ctrl
+Version: 3.2.26+10.00-4
+Depends: kernel (= 3.2.26-1-0981bf3d4f3bed73bb14d0b1523464a8)
+Provides:
+Status: install ok installed
+Architecture: comcerto2000
+Installed-Time: 1386745207
+
+Package: swap-utils
+Version: 2.21.2-1
+Depends: libc, librt, libpthread, libblkid
+Provides:
+Status: install ok installed
+Architecture: comcerto2000
+Installed-Time: 1386745238
+
+Package: cyclesoak
+Version: none-1
+Depends: libc, librt, libpthread, libgdbm
+Provides:
+Status: install ok installed
+Architecture: comcerto2000
+Installed-Time: 1386745205
+
+Package: uclibcxx
+Version: 0.2.4-1
+Depends: libc, librt, libpthread
+Provides:
+Status: install ok installed
+Architecture: comcerto2000
+Installed-Time: 1386745237
+
+Package: libblobmsg-json
+Version: 2013-01-29-0bc317aa4d9af44806c28ca286d79a8b5a92b2b8
+Depends: libc, librt, libpthread, libjson, libubox
+Provides:
+Status: install ok installed
+Architecture: comcerto2000
+Installed-Time: 1386745197
+
+Package: hotplug2
+Version: 1.0-beta-4
+Depends: libc, librt, libpthread, libbsd
+Provides:
+Status: install ok installed
+Architecture: comcerto2000
+Conffiles:
+ /etc/hotplug2.rules d4975ba71cf50d3d3c286b0de0f0929a
+Installed-Time: 1386745190
+
+Package: perf
+Version: 3.2.26-2
+Depends: libc, librt, libpthread, libelf1, libdw, libpthread, librt, binutils
+Provides:
+Status: install ok installed
+Architecture: comcerto2000
+Installed-Time: 1386745225
+
+Package: jshn
+Version: 2013-01-29-0bc317aa4d9af44806c28ca286d79a8b5a92b2b8
+Depends: libc, librt, libpthread, libjson
+Provides:
+Status: install ok installed
+Architecture: comcerto2000
+Installed-Time: 1386745197
+
+Package: libncurses
+Version: 5.7-5
+Depends: libc, librt, libpthread, terminfo
+Provides:
+Status: install ok installed
+Architecture: comcerto2000
+Installed-Time: 1386745210
+
+Package: libpcap
+Version: 1.1.1-2
+Depends: libc, librt, libpthread
+Provides:
+Status: install ok installed
+Architecture: comcerto2000
+Installed-Time: 1386745196
+
+Package: e2fsprogs
+Version: 1.42.4-1
+Depends: libc, librt, libpthread, libblkid, libuuid, libext2fs
+Provides:
+Status: install ok installed
+Architecture: comcerto2000
+Installed-Time: 1386745190
+
+Package: kmod-ipv6
+Version: 3.2.26-1
+Depends: kernel (= 3.2.26-1-0981bf3d4f3bed73bb14d0b1523464a8)
+Provides:
+Status: install hold installed
+Architecture: comcerto2000
+Installed-Time: 1386745195
+
+Package: libbsd
+Version: 0.3.0-1
+Depends: libc, librt, libpthread
+Provides:
+Status: install ok installed
+Architecture: comcerto2000
+Installed-Time: 1386745196
+
+Package: kmod-oprofile
+Version: 3.2.26-1
+Depends: kernel (= 3.2.26-1-0981bf3d4f3bed73bb14d0b1523464a8)
+Provides:
+Status: install hold installed
+Architecture: comcerto2000
+Installed-Time: 1386745195
+
+Package: mdadm
+Version: 3.2.5-1
+Depends: libc, librt, libpthread
+Provides:
+Status: install ok installed
+Architecture: comcerto2000
+Installed-Time: 1386745232
+
+Package: kmod-atheros_lsdk_wlan
+Version: 3.2.26+10.1.389-2.10.1-1
+Depends: kernel (= 3.2.26-1-0981bf3d4f3bed73bb14d0b1523464a8), atheros_lsdk_wlan
+Provides:
+Status: install ok installed
+Architecture: comcerto2000
+Installed-Time: 1386745198
+
+Package: libubus
+Version: 2013-01-13-bf566871bd6a633e4504c60c6fc55b2a97305a50
+Depends: libc, librt, libpthread, libubox
+Provides:
+Status: install ok installed
+Architecture: comcerto2000
+Installed-Time: 1386745237
+
+Package: uhttpd
+Version: 2012-10-30-e57bf6d8bfa465a50eea2c30269acdfe751a46fd
+Depends: libc, librt, libpthread, libubox
+Provides:
+Status: install ok installed
+Architecture: comcerto2000
+Conffiles:
+ /etc/config/uhttpd 17e6f94bf1e87b33b1b4558cbf96e723
+Installed-Time: 1386745237
+
+Package: libmount
+Version: 2.21.2-1
+Depends: libc, librt, libpthread, libblkid
+Provides:
+Status: install ok installed
+Architecture: comcerto2000
+Installed-Time: 1386745238
+
+Package: kmod-epn1802-ocf
+Version: 3.2.26+3.00-1
+Depends: kernel (= 3.2.26-1-0981bf3d4f3bed73bb14d0b1523464a8)
+Provides:
+Status: install ok installed
+Architecture: comcerto2000
+Installed-Time: 1386745205
+
+Package: zlib
+Version: 1.2.7-1
+Depends: libc, librt, libpthread
+Provides:
+Status: install ok installed
+Architecture: comcerto2000
+Installed-Time: 1386745239
+
+Package: webif-theme-zephyr
+Version: 0.3-
+Depends: libc, librt, libpthread, webif
+Provides:
+Status: install ok installed
+Architecture: all
+Installed-Time: 1386745209
+
+Package: kmod-nls-iso8859-15
+Version: 3.2.26-1
+Depends: kernel (= 3.2.26-1-0981bf3d4f3bed73bb14d0b1523464a8), kmod-nls-base
+Provides:
+Status: install hold installed
+Architecture: comcerto2000
+Installed-Time: 1386745195
+
+Package: kmod-nls-iso8859-1
+Version: 3.2.26-1
+Depends: kernel (= 3.2.26-1-0981bf3d4f3bed73bb14d0b1523464a8), kmod-nls-base
+Provides:
+Status: install hold installed
+Architecture: comcerto2000
+Installed-Time: 1386745195
+
+Package: oprofile-utils
+Version: 0.9.7-1
+Depends: libc, librt, libpthread, oprofile
+Provides:
+Status: install ok installed
+Architecture: comcerto2000
+Installed-Time: 1386745225
+
+Package: oprofile
+Version: 0.9.7-1
+Depends: libc, librt, libpthread, libpopt, kmod-oprofile, libstdcpp, objdump
+Provides:
+Status: install ok installed
+Architecture: comcerto2000
+Installed-Time: 1386745225
+
+Package: haserl
+Version: 0.9.27-1
+Depends: libc, librt, libpthread
+Provides:
+Status: install ok installed
+Architecture: comcerto2000
+Installed-Time: 1386745232
+
+Package: libext2fs
+Version: 1.42.4-1
+Depends: libc, librt, libpthread, libcom_err
+Provides:
+Status: install ok installed
+Architecture: comcerto2000
+Installed-Time: 1386745190
+
+Package: kernel
+Version: 3.2.26-1-0981bf3d4f3bed73bb14d0b1523464a8
+Depends: libc, librt, libpthread
+Provides:
+Status: install hold installed
+Architecture: comcerto2000
+Installed-Time: 1386745194
+
+Package: libnl-tiny
+Version: 0.1-3
+Depends: libc, librt, libpthread
+Provides:
+Status: install ok installed
+Architecture: comcerto2000
+Installed-Time: 1386745196
+
+Package: blkid
+Version: 2.21.2-1
+Depends: libc, librt, libpthread, libblkid
+Provides:
+Status: install ok installed
+Architecture: comcerto2000
+Installed-Time: 1386745238
+
+Package: mtd-utils-flash-eraseall
+Version: 1.4.5-1
+Depends: libc, librt, libpthread, mtd-utils
+Provides:
+Status: install ok installed
+Architecture: comcerto2000
+Installed-Time: 1386745233
+
+Package: libdevmapper
+Version: 2.02.96-1
+Depends: libc, librt, libpthread, kmod-dm
+Provides:
+Status: install ok installed
+Architecture: comcerto2000
+Installed-Time: 1386745232
+
+Package: kmod-nls-base
+Version: 3.2.26-1
+Depends: kernel (= 3.2.26-1-0981bf3d4f3bed73bb14d0b1523464a8)
+Provides:
+Status: install hold installed
+Architecture: comcerto2000
+Installed-Time: 1386745195
+
+Package: libgdbm
+Version: 1.9.1-2
+Depends: libc, librt, libpthread
+Provides:
+Status: install ok installed
+Architecture: comcerto2000
+Installed-Time: 1386745226
+
+Package: mount-utils
+Version: 2.21.2-1
+Depends: libc, librt, libpthread, libmount
+Provides:
+Status: install ok installed
+Architecture: comcerto2000
+Installed-Time: 1386745238
+
+Package: iozone
+Version: 405-0
+Depends: libc, librt, libpthread
+Provides:
+Status: install ok installed
+Architecture: comcerto2000
+Installed-Time: 1386745206
+
+Package: libpopt
+Version: 1.7-5
+Depends: libc, librt, libpthread
+Provides:
+Status: install ok installed
+Architecture: comcerto2000
+Installed-Time: 1386745227
+
+Package: vsftpd
+Version: 3.0.2-1
+Depends: libc, librt, libpthread
+Provides:
+Status: install ok installed
+Architecture: comcerto2000
+Conffiles:
+ /etc/vsftpd.conf 3ee8730456f23f9f15707d34db321175
+Installed-Time: 1386745230
+
+Package: libopenssl
+Version: 1.0.0g-1
+Depends: libc, librt, libpthread, zlib
+Provides:
+Status: install ok installed
+Architecture: comcerto2000
+Installed-Time: 1386745212
+

@@ -1,0 +1,17 @@
+
+config 'samba' 'general'
+	option 'name' 'openwrt'
+	option 'workgroup' 'openwrt'
+	option 'description' 'openwrt'
+	option 'homes' '0'
+	option 'enable' '1'
+	option 'usercount' '1'
+	option 'sharescount' '1'
+
+config 'sambashare' 'smbshare1'
+	option 'name' 'nasdisk'
+	option 'path' '/mnt/disk1'
+	option 'read_only' 'no'
+	option 'guest_ok' 'yes'
+	option 'create_mask' '0700'
+	option 'dir_mask' '0700'

@@ -1,0 +1,43 @@
+config global automount
+	option from_fstab 1
+	option anon_mount 1
+
+config global sda
+	option read_ahead 4096
+	option cpu0_bind  1
+
+config global sdb
+	option read_ahead 4096
+	option cpu0_bind  1
+
+config global md0
+	option read_ahead 4096
+	option cpu0_bind  1
+
+config global md1
+	option read_ahead 4096
+	option cpu0_bind  1
+
+config mount
+	option target	/media/disk1
+	option device	/dev/sda1
+	option fstype	ext4
+	option options	rw,noatime,data=writeback,barrier=0
+	option enabled	0
+	option enabled_fsck 0
+
+config mount
+	option target	/media/disk2
+	option device	/dev/sdb1
+	option fstype	ext4
+	option options	rw,noatime,data=writeback,barrier=0
+	option enabled	0
+	option enabled_fsck 0
+
+config mount
+	option target	/media/disk3
+	option device	/dev/sdc1
+	option fstype	ext4
+	option options	rw,noatime,data=writeback,barrier=0
+	option enabled	0
+	option enabled_fsck 0

@@ -1,0 +1,13 @@
+Package: cyclesoak
+Version: none-1
+Depends: libc, librt, libpthread, libgdbm
+Provides: 
+Source: package/mindspeed/cyclesoak
+Section: utils
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: comcerto2000
+Installed-Size: 5423
+Description:  Cyclesoak

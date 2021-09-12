@@ -1,0 +1,6 @@
+
+# Copyright (C) 2006 OpenWrt.org
+
+config vlan general
+        option count	0
+        option count_delete	0

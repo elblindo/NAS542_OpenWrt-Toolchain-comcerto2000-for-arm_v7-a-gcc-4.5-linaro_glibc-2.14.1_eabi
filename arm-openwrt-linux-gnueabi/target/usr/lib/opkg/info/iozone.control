@@ -1,0 +1,13 @@
+Package: iozone
+Version: 405-0
+Depends: libc, librt, libpthread
+Provides: 
+Source: package/mindspeed/iozone
+Section: utils
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: comcerto2000
+Installed-Size: 146265
+Description:  iozone

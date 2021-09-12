@@ -1,0 +1,16 @@
+Package: btrfs-progs
+Version: 0.19-1
+Depends: libc, librt, libpthread, libuuid, zlib
+Provides: 
+Source: package/openwrt/utils/btrfs-progs
+Section: utils
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: comcerto2000
+Installed-Size: 582817
+Description:  Btrfs is a new copy on write filesystem for Linux aimed at implementing
+ advanced features while focusing on fault tolerance, repair and easy
+ administration. Initially developed by Oracle, Btrfs is licensed under the
+ GPL and open for contribution from anyone. 

@@ -1,0 +1,13 @@
+Package: libpopt
+Version: 1.7-5
+Depends: libc, librt, libpthread
+Provides: 
+Source: package/openwrt/libs/popt
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: comcerto2000
+Installed-Size: 13441
+Description:  A command line option parsing library

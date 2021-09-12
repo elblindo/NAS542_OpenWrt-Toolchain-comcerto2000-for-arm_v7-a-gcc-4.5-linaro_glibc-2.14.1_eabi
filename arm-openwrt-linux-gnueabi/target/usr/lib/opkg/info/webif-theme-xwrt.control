@@ -1,0 +1,13 @@
+Package: webif-theme-xwrt
+Version: 0.3-
+Depends: libc, librt, libpthread, webif
+Provides: 
+Source: package/mindspeed/webif
+Section: admin
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: all
+Installed-Size: 6440
+Description:  Original theme for webif^2

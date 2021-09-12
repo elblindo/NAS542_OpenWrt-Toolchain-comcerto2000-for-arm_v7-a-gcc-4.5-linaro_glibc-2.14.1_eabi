@@ -1,0 +1,13 @@
+Package: kmod-nls-cp437
+Version: 3.2.26-1
+Depends: kernel (=3.2.26-1-0981bf3d4f3bed73bb14d0b1523464a8), kmod-nls-base
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: comcerto2000
+Installed-Size: 2584
+Description:  Kernel module for NLS Codepage 437 (United States, Canada)

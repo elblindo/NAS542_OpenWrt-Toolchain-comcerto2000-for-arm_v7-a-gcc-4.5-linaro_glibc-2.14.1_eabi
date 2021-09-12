@@ -1,0 +1,13 @@
+Package: tune2fs
+Version: 1.42.4-1
+Depends: libc, librt, libpthread, e2fsprogs
+Provides: 
+Source: package/e2fsprogs
+Section: utils
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: comcerto2000
+Installed-Size: 94028
+Description:  Ext2 Filesystem tune utility

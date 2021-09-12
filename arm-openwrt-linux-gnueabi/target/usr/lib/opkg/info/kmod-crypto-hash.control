@@ -1,0 +1,13 @@
+Package: kmod-crypto-hash
+Version: 3.2.26-1
+Depends: kernel (=3.2.26-1-0981bf3d4f3bed73bb14d0b1523464a8), kmod-crypto-core
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: comcerto2000
+Installed-Size: 105
+Description:  CryptoAPI hash support

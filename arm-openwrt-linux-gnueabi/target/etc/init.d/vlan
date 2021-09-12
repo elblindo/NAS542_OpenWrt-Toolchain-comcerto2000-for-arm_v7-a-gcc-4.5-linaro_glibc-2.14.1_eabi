@@ -1,0 +1,59 @@
+#!/bin/sh /etc/rc.common
+# Copyright (C) 2006 OpenWrt.org
+#DEBUG=echo
+
+START=89
+start() {
+	. /usr/lib/webif/webif.sh
+	uci_load "vlan"
+	uci_load "network"
+
+	count=`uci get vlan.general.count`
+	i=1
+	while [ "$i" -le "$count" ]
+        do
+        config_get net vlan$i net
+        config_get edit vlan$i edit
+        config_get ifname $net ifname
+
+        if [ "$edit" = "1" ];then
+        config_get id vlan$i id
+        config_get id_new vlan$i id_new
+        config_get ipaddr_new vlan$i ipaddr_new
+        config_get netmask_new vlan$i netmask_new
+        $DEBUG vconfig rem $ifname.$id
+        uci_set vlan vlan$i edit "0"
+        uci_set vlan vlan$i id $id_new
+        uci_set vlan vlan$i ipaddr $ipaddr_new
+        uci_set vlan vlan$i netmask $netmask_new
+        config_set vlan$i id $id_new
+        config_set vlan$i ipaddr $ipaddr_new
+        config_set vlan$i netmask $netmask_new
+        fi
+        config_get id vlan$i id
+        config_get ipaddr vlan$i ipaddr
+        config_get netmask vlan$i netmask
+        $DEBUG vconfig add $ifname $id >&- 2>&- <&-
+        $DEBUG ifconfig $ifname.$id $ipaddr netmask $netmask up >&- 2>&- <&-
+        i=`expr $i + 1`
+        done
+                                                                                                                                                                        
+	count_delete=`uci get vlan.general.count_delete`
+	i=1
+	if [ "$count_delete" != "0" ]; then
+	while [ "$i" -le "$count_delete" ]
+	do
+	config_get net vlan_delete$i net
+	config_get id vlan_delete$i id
+	config_get ipaddr vlan_delete$i ipaddr
+	config_get netmask vlan_delete$i netmask
+	config_get ifname $net ifname
+	
+	$DEBUG vconfig rem $ifname.$id >&- 2>&- <&-
+	$DEBUG uci_remove vlan vlan_delete$i
+	i=`expr $i + 1`
+	done
+	$DEBUG uci set vlan.general.count_delete=0
+	fi
+	$DEBUG uci commit vlan
+}

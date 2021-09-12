@@ -1,0 +1,13 @@
+Package: kmod-c2k_pmu
+Version: 3.2.26+1.00-comcerto2000-1
+Depends: 
+Provides: 
+Source: package/mindspeed/c2k_pmu
+Section: opt
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: comcerto2000
+Installed-Size: 9346
+Description:  Comcerto 2000 ARM926 PMU Driver

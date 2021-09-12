@@ -1,0 +1,5 @@
+#!/opt/OpenWrt-Toolchain-comcerto2000-for-arm_v7-a-gcc-4.5-linaro_glibc-2.14.1_eabi/toolchain-arm_v7-a_gcc-4.5-linaro_glibc-2.14.1_eabi/arm-openwrt-linux/target/usr/bin/python2.7
+
+from idlelib.PyShell import main
+if __name__ == '__main__':
+    main()

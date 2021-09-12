@@ -1,0 +1,13 @@
+Package: perf
+Version: 3.2.26-2
+Depends: libc, librt, libpthread, libelf1, libdw, libpthread, librt, binutils
+Provides: 
+Source: package/openwrt/devel/perf
+Section: devel
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: comcerto2000
+Installed-Size: 204330
+Description:  perf is the Linux performance monitoring tool

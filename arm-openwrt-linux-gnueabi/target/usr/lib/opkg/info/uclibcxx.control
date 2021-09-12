@@ -1,0 +1,13 @@
+Package: uclibcxx
+Version: 0.2.4-1
+Depends: libc, librt, libpthread
+Provides: 
+Source: package/uclibc++
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: comcerto2000
+Installed-Size: 58281
+Description:  C++ library for embedded systems

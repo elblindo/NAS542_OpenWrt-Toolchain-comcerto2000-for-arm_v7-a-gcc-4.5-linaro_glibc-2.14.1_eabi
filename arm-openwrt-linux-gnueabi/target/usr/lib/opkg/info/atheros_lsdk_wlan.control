@@ -1,0 +1,13 @@
+Package: atheros_lsdk_wlan
+Version: 10.1.389-2.10.1-1
+Depends: libc, librt, libpthread
+Provides: 
+Source: package/mindspeed/atheros-lsdk-wlan
+Section: opt
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: Mindspeed Technologies
+Architecture: comcerto2000
+Installed-Size: 324968
+Description:  LSDK WLAN 802.11ac/n Wifi cards libraries

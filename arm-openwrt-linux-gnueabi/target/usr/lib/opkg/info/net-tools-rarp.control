@@ -1,0 +1,14 @@
+Package: net-tools-rarp
+Version: 1.60-2
+Depends: libc, librt, libpthread
+Provides: 
+Source: package/openwrt/net/net-tools
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: comcerto2000
+Installed-Size: 4886
+Description:  Program rarp from net-tools.
+ Manipulate the kernel's RARP table.

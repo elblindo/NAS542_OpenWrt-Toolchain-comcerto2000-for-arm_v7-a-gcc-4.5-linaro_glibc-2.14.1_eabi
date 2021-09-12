@@ -1,0 +1,13 @@
+prefix=/opt/OpenWrt-Toolchain-comcerto2000-for-arm_v7-a-gcc-4.5-linaro_glibc-2.14.1_eabi/toolchain-arm_v7-a_gcc-4.5-linaro_glibc-2.14.1_eabi/arm-openwrt-linux/target/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: Python
+Description: Python library
+Requires: 
+Version: 2.7
+Libs.private: -lpthread -ldl  -lpthread -lutil
+Libs: -L${libdir} -lpython2.7
+Cflags: -I${includedir}/python2.7 
+

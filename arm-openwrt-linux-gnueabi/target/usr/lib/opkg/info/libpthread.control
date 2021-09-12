@@ -1,0 +1,13 @@
+Package: libpthread
+Version: 2.14.1-1
+Depends: libgcc
+Provides: 
+Source: package/toolchain
+Section: libs
+Status: unknown hold not-installed
+Essential: yes
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: comcerto2000
+Installed-Size: 35094
+Description:  POSIX thread library

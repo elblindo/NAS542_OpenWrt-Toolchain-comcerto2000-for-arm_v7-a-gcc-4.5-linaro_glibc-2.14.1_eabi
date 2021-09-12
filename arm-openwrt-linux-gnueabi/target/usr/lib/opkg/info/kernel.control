@@ -1,0 +1,13 @@
+Package: kernel
+Version: 3.2.26-1-0981bf3d4f3bed73bb14d0b1523464a8
+Depends: libc, librt, libpthread
+Provides: 
+Source: package/kernel
+Section: sys
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: comcerto2000
+Installed-Size: 104
+Description:  Virtual kernel package

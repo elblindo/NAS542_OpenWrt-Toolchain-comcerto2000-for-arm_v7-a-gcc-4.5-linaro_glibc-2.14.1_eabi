@@ -1,0 +1,9 @@
+/lib/modules/3.2.26/adf.ko
+/lib/modules/3.2.26/ath_rate_atheros.ko
+/lib/modules/3.2.26/umac.ko
+/lib/modules/3.2.26/ath_pktlog.ko
+/lib/modules/3.2.26/ath_dfs.ko
+/etc/modules.d/50-atheros_lsdk_wlan
+/lib/modules/3.2.26/ath_dev.ko
+/lib/modules/3.2.26/ath_hal.ko
+/lib/modules/3.2.26/asf.ko

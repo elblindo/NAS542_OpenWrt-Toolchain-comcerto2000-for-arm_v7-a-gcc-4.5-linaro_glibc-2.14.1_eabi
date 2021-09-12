@@ -1,0 +1,32 @@
+#!/bin/sh
+# Copyright (C) 2009-2010 OpenWrt.org
+# Copyright (C) 2010 Vertical Communications
+# This is free software, licensed under the GNU General Public License v2.
+# See /LICENSE for more information.
+#
+
+. /etc/functions.sh
+
+subsystem=`dirname $DEVPATH`
+
+if [ `basename $subsystem` == "block" ]; then
+
+    device=`basename $DEVPATH`
+
+    case "$ACTION" in
+	add)
+		config_load fstab
+		config_get var $device read_ahead
+		if [ -n "$var" ]; then
+			echo $var > /sys/block/${device}/bdi/read_ahead_kb
+		fi
+
+		config_get_bool var $device cpu0_bind 0
+		echo $var > /sys/block/${device}/bdi/cpu0_bind
+
+		;;
+	remove)
+		;;
+    esac	
+fi
+

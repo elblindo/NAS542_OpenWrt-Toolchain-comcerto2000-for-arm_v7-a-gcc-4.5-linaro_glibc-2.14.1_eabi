@@ -1,0 +1,48 @@
+#! /bin/sh
+#
+# Created by configure
+
+CC="arm-openwrt-linux-gnueabi-gcc"; export CC
+CFLAGS="-O3 -pipe -march=armv7-a -mtune=cortex-a9 -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -fpic "; export CFLAGS
+CPPFLAGS="-I/home/ycsu/projects/nas-5.0-rc2/sdk-comcerto-openwrt-c2k_nas_5.0-rc2/staging_dir/target-arm_v7-a_glibc-2.14.1_eabi/usr/include -I/home/ycsu/projects/nas-5.0-rc2/sdk-comcerto-openwrt-c2k_nas_5.0-rc2/staging_dir/target-arm_v7-a_glibc-2.14.1_eabi/include -I/home/ycsu/projects/nas-5.0-rc2/sdk-comcerto-openwrt-c2k_nas_5.0-rc2/staging_dir/toolchain-arm_v7-a_gcc-4.6-linaro_glibc-2.14.1_eabi/usr/include -I/home/ycsu/projects/nas-5.0-rc2/sdk-comcerto-openwrt-c2k_nas_5.0-rc2/staging_dir/toolchain-arm_v7-a_gcc-4.6-linaro_glibc-2.14.1_eabi/include -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE "; export CPPFLAGS
+LDFLAGS="-L/home/ycsu/projects/nas-5.0-rc2/sdk-comcerto-openwrt-c2k_nas_5.0-rc2/staging_dir/target-arm_v7-a_glibc-2.14.1_eabi/usr/lib -L/home/ycsu/projects/nas-5.0-rc2/sdk-comcerto-openwrt-c2k_nas_5.0-rc2/staging_dir/target-arm_v7-a_glibc-2.14.1_eabi/lib -L/home/ycsu/projects/nas-5.0-rc2/sdk-comcerto-openwrt-c2k_nas_5.0-rc2/staging_dir/toolchain-arm_v7-a_gcc-4.6-linaro_glibc-2.14.1_eabi/usr/lib -L/home/ycsu/projects/nas-5.0-rc2/sdk-comcerto-openwrt-c2k_nas_5.0-rc2/staging_dir/toolchain-arm_v7-a_gcc-4.6-linaro_glibc-2.14.1_eabi/lib "; export LDFLAGS
+"./configure" \
+"--target=arm-openwrt-linux" \
+"--host=arm-openwrt-linux" \
+"--build=i686-linux-gnu" \
+"--program-prefix=" \
+"--program-suffix=" \
+"--prefix=/usr" \
+"--exec-prefix=/usr" \
+"--bindir=/usr/bin" \
+"--sbindir=/usr/sbin" \
+"--libexecdir=/usr/lib" \
+"--sysconfdir=/etc" \
+"--datadir=/usr/share" \
+"--localstatedir=/var" \
+"--mandir=/usr/man" \
+"--infodir=/usr/info" \
+"--disable-nls" \
+"--with-apr=/home/ycsu/projects/nas-5.0-rc2/sdk-comcerto-openwrt-c2k_nas_5.0-rc2/staging_dir/target-arm_v7-a_glibc-2.14.1_eabi/usr/bin/apr-1-config" \
+"--with-apr-util=/home/ycsu/projects/nas-5.0-rc2/sdk-comcerto-openwrt-c2k_nas_5.0-rc2/staging_dir/target-arm_v7-a_glibc-2.14.1_eabi/usr/bin/apu-1-config" \
+"--with-pcre=/home/ycsu/projects/nas-5.0-rc2/sdk-comcerto-openwrt-c2k_nas_5.0-rc2/staging_dir/target-arm_v7-a_glibc-2.14.1_eabi/usr/bin/pcre-config" \
+"--enable-http" \
+"--enable-ssl" \
+"--enable-proxy" \
+"--enable-dav" \
+"--disable-disk-cache" \
+"--enable-maintainer-mode" \
+"--enable-mime-magic" \
+"--without-suexec-bin" \
+"--sysconfdir=/etc/apache" \
+"ap_cv_void_ptr_lt_long=no" \
+"logfiledir=/var/log" \
+"runtimedir=/var/run" \
+"build_alias=i686-linux-gnu" \
+"host_alias=arm-openwrt-linux" \
+"target_alias=arm-openwrt-linux" \
+"CC=arm-openwrt-linux-gnueabi-gcc" \
+"CFLAGS=-O3 -pipe -march=armv7-a -mtune=cortex-a9 -fno-caller-saves -fhonour-copts -Wno-error=unused-but-set-variable -fpic" \
+"LDFLAGS=-L/home/ycsu/projects/nas-5.0-rc2/sdk-comcerto-openwrt-c2k_nas_5.0-rc2/staging_dir/target-arm_v7-a_glibc-2.14.1_eabi/usr/lib -L/home/ycsu/projects/nas-5.0-rc2/sdk-comcerto-openwrt-c2k_nas_5.0-rc2/staging_dir/target-arm_v7-a_glibc-2.14.1_eabi/lib -L/home/ycsu/projects/nas-5.0-rc2/sdk-comcerto-openwrt-c2k_nas_5.0-rc2/staging_dir/toolchain-arm_v7-a_gcc-4.6-linaro_glibc-2.14.1_eabi/usr/lib -L/home/ycsu/projects/nas-5.0-rc2/sdk-comcerto-openwrt-c2k_nas_5.0-rc2/staging_dir/toolchain-arm_v7-a_gcc-4.6-linaro_glibc-2.14.1_eabi/lib" \
+"CPPFLAGS=-I/home/ycsu/projects/nas-5.0-rc2/sdk-comcerto-openwrt-c2k_nas_5.0-rc2/staging_dir/target-arm_v7-a_glibc-2.14.1_eabi/usr/include -I/home/ycsu/projects/nas-5.0-rc2/sdk-comcerto-openwrt-c2k_nas_5.0-rc2/staging_dir/target-arm_v7-a_glibc-2.14.1_eabi/include -I/home/ycsu/projects/nas-5.0-rc2/sdk-comcerto-openwrt-c2k_nas_5.0-rc2/staging_dir/toolchain-arm_v7-a_gcc-4.6-linaro_glibc-2.14.1_eabi/usr/include -I/home/ycsu/projects/nas-5.0-rc2/sdk-comcerto-openwrt-c2k_nas_5.0-rc2/staging_dir/toolchain-arm_v7-a_gcc-4.6-linaro_glibc-2.14.1_eabi/include -D_LARGEFILE64_SOURCE -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE" \
+"$@"

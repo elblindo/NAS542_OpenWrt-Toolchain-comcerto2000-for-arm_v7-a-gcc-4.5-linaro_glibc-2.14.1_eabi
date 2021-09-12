@@ -1,0 +1,13 @@
+/usr/sbin/iwconfig
+/etc/wpa2/security.conf
+/usr/sbin/hostapd
+/lib/iwlib.so
+/usr/sbin/iwlist
+/lib/wifi/hostapd.sh
+/usr/sbin/80211stats
+/lib/libiw.so.29
+/usr/sbin/athstats
+/lib/libiw.so
+/lib/wifi/atheros_lsdk_wlan.sh
+/usr/sbin/wlanconfig
+/usr/sbin/iwpriv

@@ -1,0 +1,13 @@
+Package: libstdcpp
+Version: 4.5-linaro-1
+Depends: 
+Provides: 
+Source: package/toolchain
+Section: libs
+Status: unknown hold not-installed
+Essential: yes
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: comcerto2000
+Installed-Size: 253812
+Description:  GNU Standard C++ Library v3

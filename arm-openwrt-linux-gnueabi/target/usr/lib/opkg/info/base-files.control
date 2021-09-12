@@ -1,0 +1,13 @@
+Package: base-files
+Version: 117-unknown
+Depends: libc, librt, libpthread, netifd
+Provides: 
+Source: package/base-files
+Section: base
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: comcerto2000
+Installed-Size: 32699
+Description:  This package contains a base filesystem and system scripts for OpenWrt.

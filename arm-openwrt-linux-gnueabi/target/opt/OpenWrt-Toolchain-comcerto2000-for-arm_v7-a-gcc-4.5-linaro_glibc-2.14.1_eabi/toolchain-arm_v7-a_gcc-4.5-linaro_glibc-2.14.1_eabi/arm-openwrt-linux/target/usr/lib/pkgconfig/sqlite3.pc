@@ -1,0 +1,13 @@
+# Package Information for pkg-config
+
+prefix=/opt/OpenWrt-Toolchain-comcerto2000-for-arm_v7-a-gcc-4.5-linaro_glibc-2.14.1_eabi/toolchain-arm_v7-a_gcc-4.5-linaro_glibc-2.14.1_eabi/arm-openwrt-linux/target/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: SQLite
+Description: SQL database engine
+Version: 3.8.2
+Libs: -L${libdir} -lsqlite3
+Libs.private: -ldl -lpthread 
+Cflags: -I${includedir}

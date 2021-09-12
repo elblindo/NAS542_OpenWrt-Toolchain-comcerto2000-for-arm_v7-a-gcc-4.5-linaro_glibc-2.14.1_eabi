@@ -1,0 +1,13 @@
+Package: oprofile
+Version: 0.9.7-1
+Depends: libc, librt, libpthread, libpopt, kmod-oprofile, libstdcpp, objdump
+Provides: 
+Source: package/openwrt/devel/oprofile
+Section: devel
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: comcerto2000
+Installed-Size: 391116
+Description:  A transparent low-overhead system-wide profiler.

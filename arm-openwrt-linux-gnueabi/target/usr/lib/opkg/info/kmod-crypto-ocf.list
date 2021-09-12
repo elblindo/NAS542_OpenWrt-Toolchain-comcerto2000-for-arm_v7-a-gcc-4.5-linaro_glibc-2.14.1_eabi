@@ -1,0 +1,4 @@
+/lib/modules/3.2.26/ocf.ko
+/etc/modules.d/09-crypto-ocf
+/lib/modules/3.2.26/cryptodev.ko
+/lib/modules/3.2.26/cryptosoft.ko

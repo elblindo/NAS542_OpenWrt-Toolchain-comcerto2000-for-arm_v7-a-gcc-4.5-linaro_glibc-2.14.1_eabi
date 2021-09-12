@@ -1,0 +1,13 @@
+Package: libbsd
+Version: 0.3.0-1
+Depends: libc, librt, libpthread
+Provides: 
+Source: package/libbsd
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: comcerto2000
+Installed-Size: 20535
+Description:  This library provides useful functions commonly found on BSD systems, and lacking on others like GNU systems, thus making it easier to port projects with strong BSD origins, without needing to embed the same code over and over again on each project.

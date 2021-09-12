@@ -1,0 +1,13 @@
+Package: mdadm
+Version: 3.2.5-1
+Depends: libc, librt, libpthread
+Provides: 
+Source: package/openwrt/utils/mdadm
+Section: utils
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: comcerto2000
+Installed-Size: 299214
+Description:  A tool for managing Linux Software RAID arrays.

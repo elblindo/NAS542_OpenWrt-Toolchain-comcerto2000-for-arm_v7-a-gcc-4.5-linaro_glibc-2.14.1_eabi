@@ -1,0 +1,13 @@
+Package: kmod-atheros_lsdk_wlan
+Version: 3.2.26+10.1.389-2.10.1-1
+Depends: kernel (=3.2.26-1-0981bf3d4f3bed73bb14d0b1523464a8), atheros_lsdk_wlan
+Provides: 
+Source: package/mindspeed/atheros-lsdk-wlan
+Section: kernel
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: Mindspeed Technologies
+Architecture: comcerto2000
+Installed-Size: 1370165
+Description:  This package contains a driver for Atheros cards.

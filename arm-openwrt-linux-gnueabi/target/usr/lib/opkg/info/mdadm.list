@@ -1,0 +1,3 @@
+/sbin/mdassemble
+/sbin/mdadm
+/etc/mdadm.conf

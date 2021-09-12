@@ -1,0 +1,14 @@
+Package: net-tools-nameif
+Version: 1.60-2
+Depends: libc, librt, libpthread
+Provides: 
+Source: package/openwrt/net/net-tools
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: comcerto2000
+Installed-Size: 4307
+Description:  Program nameif from net-tools
+ Trivial File Transfer Protocol server.

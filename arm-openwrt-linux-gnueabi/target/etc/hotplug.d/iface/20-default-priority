@@ -1,0 +1,10 @@
+# Skip fake devices (e.g. relayd)
+grep -qs "^ *$DEVICE:" /proc/net/dev || exit 0
+
+case "$ACTION" in
+	ifup)
+		# change default priority so packets (including TSO) go into TMU queue 0 (which can hold more packets)
+		echo 0 > /sys/class/net/$DEVICE/default_priority
+	;;
+esac
+

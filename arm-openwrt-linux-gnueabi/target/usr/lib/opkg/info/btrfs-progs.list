@@ -1,0 +1,7 @@
+/usr/bin/btrfs-vol
+/usr/bin/btrfsck
+/usr/bin/btrfsctl
+/usr/bin/mkfs.btrfs
+/usr/bin/btrfs-debug-tree
+/usr/bin/btrfs-show
+/etc/init.d/btrfs-scan

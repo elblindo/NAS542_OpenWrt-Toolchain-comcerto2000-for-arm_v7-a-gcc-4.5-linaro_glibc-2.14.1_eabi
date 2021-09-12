@@ -1,0 +1,3 @@
+/etc/init.d/pmu
+/lib/firmware/pmu.elf
+/lib/modules/3.2.26/c2k_pmu.ko

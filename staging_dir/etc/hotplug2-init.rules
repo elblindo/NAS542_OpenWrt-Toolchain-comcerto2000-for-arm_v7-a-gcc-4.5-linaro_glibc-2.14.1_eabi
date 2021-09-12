@@ -1,0 +1,9 @@
+$include /etc/hotplug2-common.rules
+
+SUBSYSTEM == block {
+	exec /etc/hotplug.d/block/00-setup
+}
+
+SUBSYSTEM == button {
+	exec kill -USR1 1
+}

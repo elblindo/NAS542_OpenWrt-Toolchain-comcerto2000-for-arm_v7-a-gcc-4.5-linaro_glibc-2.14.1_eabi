@@ -1,0 +1,7 @@
+# This file is automatically maintained by lvm.
+
+persistent_filter_cache {
+	valid_devices=[
+		"/dev/sda"
+	]
+}

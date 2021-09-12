@@ -1,0 +1,13 @@
+Package: webif
+Version: 0.3-
+Depends: libc, librt, libpthread, haserl, opkg, uhttpd
+Provides: 
+Source: package/mindspeed/webif
+Section: admin
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: comcerto2000
+Installed-Size: 221794
+Description:  A HTTP administrative console for OpenWrt

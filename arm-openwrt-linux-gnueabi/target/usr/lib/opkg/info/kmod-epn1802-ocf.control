@@ -1,0 +1,13 @@
+Package: kmod-epn1802-ocf
+Version: 3.2.26+3.00-1
+Depends: kernel (=3.2.26-1-0981bf3d4f3bed73bb14d0b1523464a8)
+Provides: 
+Source: package/mindspeed/epn1802-ocf
+Section: Mindspeed Packages
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: Mindspeed Technologies
+Architecture: comcerto2000
+Installed-Size: 40989
+Description:  OCF driver for Mindspeed's Comcerto 2000 (m86xxx). Support for raw cryptography, public key acceleration and TRNG offload.

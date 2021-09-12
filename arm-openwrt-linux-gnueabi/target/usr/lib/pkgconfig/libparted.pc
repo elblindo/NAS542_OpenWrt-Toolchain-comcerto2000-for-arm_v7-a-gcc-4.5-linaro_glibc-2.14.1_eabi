@@ -1,0 +1,10 @@
+prefix=/opt/OpenWrt-Toolchain-comcerto2000-for-arm_v7-a-gcc-4.5-linaro_glibc-2.14.1_eabi/toolchain-arm_v7-a_gcc-4.5-linaro_glibc-2.14.1_eabi/arm-openwrt-linux-gnueabi/target/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libparted
+Description: The GNU Parted disk partitioning shared library
+Version: 3.1
+Libs: -L${libdir} -lparted
+Cflags: -I${includedir}

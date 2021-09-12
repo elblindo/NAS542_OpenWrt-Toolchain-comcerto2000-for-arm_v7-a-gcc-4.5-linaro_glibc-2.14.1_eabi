@@ -1,0 +1,14 @@
+Package: strace
+Version: 4.5.20-1
+Depends: libc, librt, libpthread
+Provides: 
+Source: package/openwrt/utils/strace
+Section: utils
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: comcerto2000
+Installed-Size: 86934
+Description:  A useful diagnostic, instructional, and debugging tool. Allows you to track what
+ system calls a program makes while it is running.
